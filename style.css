@@ -1,0 +1,85 @@
+@font-face {
+    font-family:main;
+    src: url(./images/djcourag.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#page1{
+    position: relative;
+    z-index: 0;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to bottom,rgba(7, 173, 7, 0.495),transparent);
+    
+}
+
+.moving-txt{
+    width: 100%;
+    font-family: main;
+    font-weight: bolder;
+    font-size: 5vw;
+    overflow: hidden;
+    white-space: nowrap;
+    display: flex;
+    gap: 3vw;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -10;
+    overflow: hidden;
+}
+
+.moving-txt h1{
+    display:block;
+    color:#444542;
+    white-space: nowrap;
+    transform: translateX(-200%);
+}
+
+#can-img{
+    height: 80vh;
+    width: 20vw;
+    overflow: hidden;
+    position: absolute;
+    filter: drop-shadow(10px 10px 60px rgba(77, 103, 81, 0.34));
+    top: 50%;
+    left: 50%;
+    z-index: -8;
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+
+#can-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+ 
+.moving-txt2{
+    width: 100%;
+    font-family: main;
+    font-weight: bolder;
+    font-size: 5vw;
+    overflow: hidden;
+    white-space: nowrap;
+    display: flex;
+    gap: 3vw;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -7;
+    overflow: hidden;
+}
+
+.moving-txt2 h1{
+    display:block;
+    color: #444542;
+    white-space: nowrap;
+    transform: translateX(-200%);
+}
