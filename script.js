@@ -20,16 +20,15 @@ TimeLine.from('.moving-txt2 h1',{
 //handling can image on scroll in first page...
 
  TimeLine.from("#can-img",{
-    transform: `rotate(${-50}deg)`,
-    duration:5,
-    y:40,
+    transform:`rotateX(-10deg)`,
+    duration:10,
     scrollTrigger:{
         trigger:"#can-img",
         scroller:'body',
-        markers:'true',
+       // markers:'true',
         scrub:true,
-        start:'top 80%',
-        end:'top 0%'
+        start:'top 50%',
+        end:'top 10%'
 
     }
  },"same")

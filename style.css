@@ -8,12 +8,16 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    overflow-x: hidden;
+}
 
 #page1{
     position: relative;
     z-index: 0;
     height: 100vh;
     width: 100vw;
+    overflow: hidden;
     background: linear-gradient(to bottom,rgba(7, 173, 7, 0.495),transparent);
     
 }
@@ -48,9 +52,10 @@
     overflow: hidden;
     position: absolute;
     filter: drop-shadow(10px 10px 60px rgba(77, 103, 81, 0.34));
-    top: 80%;
-    left: 50%;
+    top: 50%;
+    left: 40%;
     z-index: -8;
+    transform-origin: center;
     transform: translate(-50%,-50%) rotate(-20deg);
 }
 
@@ -70,7 +75,7 @@
     display: flex;
     gap: 3vw;
     position: absolute;
-    top: 65%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%,-50%);
     z-index: -7;
@@ -86,7 +91,8 @@
 }
 
 #page2{
-    height: 300vh;
+    height: 100vh;
+    overflow: hidden;
     width: 100vw;
     background-color: black;
 }
