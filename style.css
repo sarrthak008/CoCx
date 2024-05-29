@@ -48,7 +48,7 @@
     overflow: hidden;
     position: absolute;
     filter: drop-shadow(10px 10px 60px rgba(77, 103, 81, 0.34));
-    top: 50%;
+    top: 80%;
     left: 50%;
     z-index: -8;
     transform: translate(-50%,-50%) rotate(-20deg);
@@ -81,5 +81,12 @@
     display:block;
     color: #444542;
     white-space: nowrap;
-    transform: translateX(-200%);
+    transform: translateX(0%);
+    
+}
+
+#page2{
+    height: 300vh;
+    width: 100vw;
+    background-color: black;
 }

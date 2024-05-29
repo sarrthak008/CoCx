@@ -19,5 +19,17 @@ TimeLine.from('.moving-txt2 h1',{
 
 //handling can image on scroll in first page...
 
- let img = document.querySelector("#can-img")
- let body = document.querySelector("#page1") 
+ TimeLine.from("#can-img",{
+    transform: `rotate(${-50}deg)`,
+    duration:5,
+    y:40,
+    scrollTrigger:{
+        trigger:"#can-img",
+        scroller:'body',
+        markers:'true',
+        scrub:true,
+        start:'top 80%',
+        end:'top 0%'
+
+    }
+ },"same")
