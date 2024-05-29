@@ -12,6 +12,10 @@ body{
     overflow-x: hidden;
 }
 
+body::-webkit-scrollbar{
+    display: none;
+}
+
 #page1{
     position: relative;
     z-index: 0;
@@ -95,4 +99,58 @@ body{
     overflow: hidden;
     width: 100vw;
     background-color: black;
+}
+
+
+
+
+/*
+  MOBILE SCREEN CODE.....
+*/
+
+@media screen and (max-width:488px) {
+    
+
+
+.moving-txt{
+    font-size: 10vw;
+    gap: 7vw;
+}
+
+.moving-txt h1{
+    display:block;
+    color:#444542;
+    white-space: nowrap;
+    transform: translateX(-200%);
+}
+
+#can-img{
+    height: 60vh;
+    width: 60vw;
+    overflow: hidden;
+    position: absolute;
+    filter: drop-shadow(10px 10px 60px rgba(77, 103, 81, 0.34));
+    top: 50%;
+    left: 20%;
+    z-index: -8;
+    transform-origin: center;
+    transform: translate(-50%,-50%) rotate(-0deg);
+}
+
+#can-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+ 
+.moving-txt2{
+    font-size: 10vw;
+    gap: 10vw;
+    top: 75%;
+    left: 50%;
+}
+
+
+
+
 }
