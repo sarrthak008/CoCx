@@ -101,13 +101,13 @@ body::-webkit-scrollbar{
     align-items: center;
     justify-content: center;
     width: 100vw;
-    background: linear-gradient(to top,#76d1ed,transparent);    
+    background: linear-gradient(to top,transparenttransparent);    
 }
 
 #conatiner{
     height: 80vh;
     width: 90vw;
-    background-color: whitesmoke;
+    background-color: rgb(238, 233, 233);
     border-radius: 24px;
     display: flex;
     overflow: hidden;
@@ -163,7 +163,7 @@ body::-webkit-scrollbar{
     height: 25vh;
     width: 90%;
      margin: 5vh auto;
-     transform: translateY(-100%);
+     transform: translateY(-400%);
      border-radius: 17px;
      position: relative;
      background-color: white;
@@ -183,10 +183,41 @@ body::-webkit-scrollbar{
 #brands #right{
     height: 100%;
     width: 45%;
-    background-color: rgb(57, 205, 57);
+    overflow: hidden;
 }
 
 
+
+
+#right span{
+    display: block;
+    height: 25vh;
+    width: 90%;
+     margin: 5vh auto;
+     transform: translateY(-550%);
+     border-radius: 17px;
+     position: relative;
+     background-color: white;
+     box-shadow: 2px 2px 11px 1px rgba(128, 128, 128, 0.637);
+}
+
+
+
+#right span img{
+    width: 60%;
+    object-fit: fill;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+#page3{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to top,#76d1ed,transparent);
+}
 
 
 /*
