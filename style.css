@@ -166,7 +166,7 @@ body::-webkit-scrollbar{
      transform: translateY(-400%);
      border-radius: 17px;
      position: relative;
-     background-color: white;
+     background: linear-gradient(to bottom,white,#b7e3f1b9);
      box-shadow: 2px 2px 11px 1px rgba(128, 128, 128, 0.637);
 }
 
@@ -197,7 +197,7 @@ body::-webkit-scrollbar{
      transform: translateY(-550%);
      border-radius: 17px;
      position: relative;
-     background-color: white;
+     background: linear-gradient(to top,white,#b7e3f1b9);
      box-shadow: 2px 2px 11px 1px rgba(128, 128, 128, 0.637);
 }
 
