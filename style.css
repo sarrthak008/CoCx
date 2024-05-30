@@ -148,7 +148,6 @@ body::-webkit-scrollbar{
 #brands{
     height: 100%;
     width: 55%;
-    background-color: red;
     display: flex;
     gap:3vw;
     overflow: hidden;
@@ -157,23 +156,37 @@ body::-webkit-scrollbar{
 #brands #left{
     height: 100%;
     width: 45%;
-    background-color: green;
     overflow: hidden;
 }
 #left span{
     display: block;
     height: 25vh;
     width: 90%;
-    background-color: blue;
-   margin: 3vh auto;
-
+     margin: 5vh auto;
+     transform: translateY(-100%);
+     border-radius: 17px;
+     position: relative;
+     background-color: white;
+     box-shadow: 2px 2px 11px 1px rgba(128, 128, 128, 0.637);
 }
+
+#left span img{
+    width: 60%;
+    object-fit: fill;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
 
 #brands #right{
     height: 100%;
     width: 45%;
     background-color: rgb(57, 205, 57);
 }
+
+
 
 
 /*
