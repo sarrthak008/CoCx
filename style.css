@@ -7,6 +7,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: main;
 }
 body{
     overflow-x: hidden;
@@ -21,9 +22,8 @@ body::-webkit-scrollbar{
     z-index: 0;
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
+    overflow-y: hidden;
     background: linear-gradient(to bottom,#76d1ed,transparent);
-    
 }
 
 .moving-txt{
@@ -96,12 +96,84 @@ body::-webkit-scrollbar{
 
 #page2{
     height: 100vh;
-    overflow: hidden;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100vw;
+    background: linear-gradient(to top,#76d1ed,transparent);    
+}
+
+#conatiner{
+    height: 80vh;
+    width: 90vw;
+    background-color: whitesmoke;
+    border-radius: 24px;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+}
+
+#conatiner #info{
+    height: 100%;
+    width: 40%;
+    font-weight:bolder;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin: 2vw;
+}
+#info h1{
+    margin: 1vw;
+    font-size: 4vw;
+}
+
+#info a{
+    padding: 2vh 4vw;
+    background-color: #76d1ed;
+    border-radius: 19px;
+    text-decoration: none;
+    color: whitesmoke;
+    letter-spacing: 0.2vw;
+    transition:all 0.3s linear;
+}
+
+#info a:hover{
     background-color: black;
+    color: #76d1ed;
 }
 
 
+#brands{
+    height: 100%;
+    width: 55%;
+    background-color: red;
+    display: flex;
+    gap:3vw;
+    overflow: hidden;
+}
+
+#brands #left{
+    height: 100%;
+    width: 45%;
+    background-color: green;
+    overflow: hidden;
+}
+#left span{
+    display: block;
+    height: 25vh;
+    width: 90%;
+    background-color: blue;
+   margin: 3vh auto;
+
+}
+
+#brands #right{
+    height: 100%;
+    width: 45%;
+    background-color: rgb(57, 205, 57);
+}
 
 
 /*
