@@ -410,7 +410,7 @@ body::-webkit-scrollbar{
     top: 10%;
     height: 4vh;
     width: 30vw;
-    font-size: 3vw;
+    font-size: 3.1vw;
 }
 
 .main-btn::before{
